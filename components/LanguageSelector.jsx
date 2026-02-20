@@ -9,6 +9,10 @@ export default function LanguageSelector({ onLanguageSelect }) {
         { code: 'en', label: 'English', native: 'English' },
         { code: 'hi', label: 'Hindi', native: 'हिन्दी' },
         { code: 'ta', label: 'Tamil', native: 'தமிழ்' },
+        { code: 'bn', label: 'Bengali', native: 'বাংলা' },
+        { code: 'te', label: 'Telugu', native: 'తెలుగు' },
+        { code: 'mr', label: 'Marathi', native: 'मराठी' },
+        { code: 'gu', label: 'Gujarati', native: 'ગુજરાતી' },
     ];
 
     const handleLanguageClick = (languageCode) => {
@@ -65,11 +69,9 @@ export default function LanguageSelector({ onLanguageSelect }) {
                 <form onSubmit={handleComplete} className="w-full max-w-sm space-y-8 animate-fade-in-up">
                     <div className="mb-12 text-center space-y-4">
                         <h1 className="text-4xl font-bold text-maroon-900 tracking-tight">
-                            One last thing...
+                            Your name
                         </h1>
-                        <p className="text-gray-500 text-lg">
-                            What should we call you?
-                        </p>
+
                     </div>
 
                     <div className="space-y-4">

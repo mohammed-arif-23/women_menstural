@@ -7,7 +7,7 @@ const supabase = createClient(
 );
 
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
+const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash-lite' });
 
 const SYSTEM_PROMPT = `You are a warm, knowledgeable, and engaging health companion for women.
 Your goal is to provide helpful, friendly advice and tips based on the user's current input.
