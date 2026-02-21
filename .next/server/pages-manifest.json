@@ -2,10 +2,9 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/api/predict": "pages/api/predict.js",
-  "/api/actions/calendar": "pages/api/actions/calendar.js",
-  "/cycle": "pages/cycle.js",
+  "/": "pages/index.js",
   "/dashboard": "pages/dashboard.js",
-  "/pcos": "pages/pcos.js",
-  "/api/log": "pages/api/log.js"
+  "/cycle": "pages/cycle.js",
+  "/api/log": "pages/api/log.js",
+  "/api/actions/calendar": "pages/api/actions/calendar.js"
 }
