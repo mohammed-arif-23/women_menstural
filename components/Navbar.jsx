@@ -26,7 +26,7 @@ export default function Navbar() {
         <nav style={{ background: '#4a0404', borderBottom: '3px solid #2b0202' }}>
             <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 16px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: '60px' }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                    <span style={{ color: '#ffffff', fontWeight: '700', fontSize: '16px', letterSpacing: '0.5px' }}>Women's Wellness</span>
+                    <span style={{ color: '#ffffff', fontWeight: '700', fontSize: '16px', letterSpacing: '0.5px' }}>Women's Wellness Companion</span>
                 </div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
                     {firstName && (
